@@ -1,4 +1,4 @@
-# Image-restoration
+# Image restoration using neural networks
 Noise analysis and denoising using CNN and python.
 
 This project consists in total of four networks. The first two cary out te task of noise analysis. They are PCA-based and classify the type of noise and estimate the noise variance based on the obtained knowledge. The second two handle the removal of the noise and present two different approaches employing autoencoders. The first one, GDAE, reconstructs clean images from degraded input without requiring any prior knowledge of the degradation function or its parameter-space. The second one, SDAE, is connected to the noise classifier and build together a toolchain, where for each type of noise there is an autoencoder, specialized in removing it.
