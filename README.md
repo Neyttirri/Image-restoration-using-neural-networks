@@ -21,7 +21,8 @@ Dataset must be in folder data with following structure: \
 
 
 In src folder there are two executable scripts for each model - training and predictions. Important is to execute scripts directly from the folder they are in! 
-Scrips for training accept optional boolean parameter "augmented", depending on which the training data is augmented and its size is increased three times. Due to possible hardware limiitations its default value is false. 
+Scrips for training accept two optional boolean parameters. First one is "augmented", depending on which the training data is augmented and its size is increased three times. Due to possible hardware limitations its default value is false. The second one is "overwrite". Once the dataset is loaded from the local directory and the images are preprocessed, the results are saved to pikles, so loading them again is easier next time. If some parameters in the preprocessing are adjusted, this flag should be set to true, so the data is loaded again and the old pikles are replaced, otherwise the last version would be used again. Default value is false.
+
 Scripts for prediction require two parameters, one for path of the input file, one for path of the output file. For testing purposes the Lena image in data folder can be used, several versions of it with different noise types and levels are uploaded. 
 
 
