@@ -7,17 +7,17 @@ This project consists in total of four networks. The first two cary out te task 
 Pretrained models are in folder checkpoints.
 
 Download training data from: https://drive.google.com/drive/folders/1zRwVhb6osPEvbpoYSKqi6muRvGcz2rBG?usp=sharing
-Dataset must be in folder data with following structure: 
-├── data
-│   ├── custom_noises
-│   │   ├── clean
-│   │   │   ├── clean
-│   │   ├── gaussian
-│   │   │   ├── gaussian
-│   │   ├── sp
-│   │   │   ├── s&p
-│   │   ├── speckle
-│   │   │   ├── speckle
+Dataset must be in folder data with following structure: \
+├── data \
+│   ├── custom_noises \
+│   │   ├── clean \
+│   │   │   ├── clean \
+│   │   ├── gaussian \
+│   │   │   ├── gaussian \
+│   │   ├── sp \
+│   │   │   ├── s&p \
+│   │   ├── speckle \
+│   │   │   ├── speckle 
 
 
 In src folder there are two executable scripts for each model - training and predictions. Important is to execute scripts directly from the folder they are in! 
